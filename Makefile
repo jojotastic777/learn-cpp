@@ -11,3 +11,6 @@ clean_debug:
 
 clean_prod:
 	rm -f prod
+
+update: clean
+	git pull
