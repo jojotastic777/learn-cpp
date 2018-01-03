@@ -14,3 +14,4 @@ clean_prod:
 
 update: clean
 	git pull
+	echo test
